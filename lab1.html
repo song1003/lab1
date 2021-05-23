@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+           
+<title>Questionnaire</title>
+<link rel="stylesheet" type="text/css" href="lab1.css">
+        
+</head>
+<body>
+<h1>Survey</h1>
+<p>Do you like the UI in this <a href="https://www.mercedes-benz.ca/">Benz</a> site?</p>
+<p><a href="https://www.mercedes-benz.ca/">
+<img src="Benz.png" alt="https://www.mercedes-benz.ca/" width="550" height="300">
+</a></p>
+ 
+<form action="/action_page.php">
+What is Your Name? <input type="text" name="name">
+ 
+How old are you? <input type="text" name="old">
+<div class="question">
+<p>What are your favorite car?</p>
+<select name="subjects" size="3" multiple="multiple">
+<option value="Corvette">Corvette</option>
+<option value="Tesla">Tesla</option>
+<option value="Lincoln">Lincoln</option>
+<option value="Hummer">Hummer</option>
+<option value="Cadillac">Cadillac</option>
+<option value="Mustang">Mustang</option>
+<option value="Benz">Benz</option>
+<option value="Chevrolet">Chevrolet</option>
+<option value="Ford">Ford</option>
+<option value="BMW">BMW</option>
+</select>
+<form action=""method="get">
+    <form action=""method="get">
+        <p><label><strong>What is your favorite part of this website:</strong><br>
+            <textarea name="best" rows="4" cols="35"></textarea>
+        </label></p>
+<p>Are you male or female?</p>
+ 
+<input type="radio"name="gender"value="female"/>female
+<input type="radio"name="gender"value="male"/>male
+
+<form action=""method="get">
+<p>What were your favorite pages?</p>
+<input type="checkbox"name="page"value="VEHICLES"/>VEHICLES
+<input type="checkbox"name="page"value="SHOPPING"/>SHOPPING
+<input type="checkbox"name="page"value="INVENTORY"/>INVENTORY
+<input type="checkbox"name="page"value="MY ACCOUNT"/>MY ACCOUNT
+</p></div>
+
+</form>
+<form action=""method="get">
+<p>please leave comment</p>
+<textarea name="comments"></textarea>
+<p>
+</form>
+<input type="submit">
+<input type="reset">
+<h1 id="signature">Site created by ks</h1>
+</body>
+</html>

@@ -1,0 +1,57 @@
+html {
+  background-color: rgb(255, 255, 255);
+}
+ 
+body {
+  background-color: powderblue;
+  width: 600px;
+  border: 2px solid black;
+  padding: 0px 20px 20px 20px;
+  
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 40px;
+	color: #ff00ff;  /* Fuchsia */
+	text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align: center;
+}
+
+p {
+  color: red;
+}
+
+table {
+	border: 1px solid black;
+	background-color: #f1f1c1;
+}
+
+
+.question {
+    margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+	border: 7px solid white;
+	border-radius: 10px;
+}
+
+/* Defining styling for a specific element type - large block buttons */
+
+
+
+#signature {
+  text-align: right;
+  color: red;
+  font-style: italic;
+  font-size: 85%;
+}
